@@ -1,4 +1,4 @@
-Check out the [live preview] (https://62886e69dc2b01456ce8fa93--fanciful-truffle-596019.netlify.app/). 
+Check out the [live preview](https://62886e69dc2b01456ce8fa93--fanciful-truffle-596019.netlify.app/). 
 
 ## Getting Started
 

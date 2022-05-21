@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <section className="mt-24 px-8 md:container">
+    <section className="mt-24 px-8 md:container scroll">
         <div className='flex flex-col-reverse md:flex-row gap-x-10'>
             <div className='max-w-lg'>
                 <h1 className='md:pt-7 font-Inter text-[2.75rem] leading-[50px] font-bold text-secondary'>
@@ -32,8 +32,9 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className='md:ml-[30px] md:-mr-[100px]'>
+            <div className='md:ml-[30px] md:-mr-[100px] relative'>
                 <img className='lg:w-auto lg:h-[580px]' src='/running-man.png' alt='' />
+                <img className='lg:w-auto lg:h-[580px] absolute top-2 -right-20' src='/running-man-dots.png' alt='' />
             </div>
         </div>
         <div className='mt-[90px] lg:mt-0 flex items-center lg:justify-between gap-8 overflow-auto no-scrollbar overflow-fade opacity-30'>

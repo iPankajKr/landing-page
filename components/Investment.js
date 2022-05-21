@@ -15,7 +15,7 @@ const Investment = () => {
               Learn More
             </button>
           </div>
-          <div className="bg-[url('/map-bg.png')] py-4">
+          <div className="bg-[url('/bg/map-bg.png')] py-4">
             <Image src="/price-card.png" width={403} height={414} alt=''/>
           </div>
     </div>

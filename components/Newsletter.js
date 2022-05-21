@@ -1,7 +1,7 @@
 
 const Newsletter = () => {
   return (
-    <section className="mt-20 py-10 bg-[url('/newsletter-bg.png')] bg-top bg-no-repeat">
+    <section className="mt-20 py-10 bg-[url('/bg/newsletter-bg.png')] bg-top bg-no-repeat">
         <div className="text-center p-7 lg:p-10 max-w-[940px] mx-auto rounded-[5px] bg-[#3C3E7D] bg-opacity-20 backdrop-blur-[134px]">
             <h2 className="text-primary font-Rubik font-medium text-[2.25rem] leading-[2.68rem]">
                 There are many reasons to get down

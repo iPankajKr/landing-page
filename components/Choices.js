@@ -13,7 +13,7 @@ const Choices = () => {
                 </p>
             </div>
             <div className='grid mt-12 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                {choiceList.map(item => <Choice icon={item.icon} title={item.title} description={item.description} />)}
+                {choiceList.map(item => <Choice key={item.id} icon={item.icon} title={item.title} description={item.description} />)}
             </div>
         </div>
     </section>

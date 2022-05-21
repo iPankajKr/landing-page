@@ -78,10 +78,10 @@ function FooterMenuList({title, list}) {
         <div className='font-Inter'>
             <h3 className='font-bold text-[.93rem] text-white tracking-[0.2px]'>{title}</h3>
             <ul className='mt-6'>
-                {list.map(item => 
+                {list.map((item, index) => 
                     (
                         <li 
-                            key={list.index}
+                            key={index}
                             className='text-[.93rem] text-white tracking-[.2px]'
                         >
                             {item}

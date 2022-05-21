@@ -18,7 +18,7 @@ const Footer = () => {
                 <FooterMenuList key={menu.id} title={menu.title} list={menu.items} />
             ))}
         </div>
-        <div className="mt-20 flex flex-col md:flex-row justify-center items-center gap-5 text-[#8D8D8D]">
+        <div className="mt-20 flex flex-wrap md:justify-center items-center gap-5 text-[#8D8D8D]">
           <p>© Copyrights 2021</p>
           <p>Privacy policy</p>
           <p>Terms of service</p>

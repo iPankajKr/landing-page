@@ -10,7 +10,11 @@ const Newsletter = () => {
                 There are many reasons to get down and start to get depressed about your situation. 
             </p>
             <div className="mt-6 flex gap-y-2 md:flex-row justify-center">
-                <input className="max-w-[200px] md:max-w-none md:min-w-[288px] font-Inter text-sm bg-[#F6F6F6] bg-opacity-10 text-white px-4 py-[18px] rounded md:rounded-l-[5px] outline-none" type='text' placeholder="Your Email" />
+                <input 
+                    className="max-w-[200px] md:max-w-none md:min-w-[288px] font-Inter text-sm bg-[#F6F6F6] bg-opacity-10 text-white px-4 py-[18px] rounded md:rounded-l-[5px] outline-none" 
+                    type='text' 
+                    placeholder="Your Email" 
+                />
                 <button className="text-xs uppercase px-4 md:px-8 py-4 font-medium tracking-[2px] bg-primary text-white rounded-r-[5px]">Send</button> 
             </div>
             <p className="mt-4 text-sm font-medium">

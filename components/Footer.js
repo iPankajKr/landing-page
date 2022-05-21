@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="mt-20 px-8 md:container py-10 bg-[url('/footer-bg.png')]">
+    <footer className="mt-20 px-8 md:container py-10 bg-[url('/bg/footer-bg.png')]">
         <div className="flex justify-between max-w-[940px] mx-auto">
           <h3 className='text-primary font-Inter font-bold text-[1.625]'>
             ARShakir

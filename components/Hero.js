@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
                 <div className='flex lg:items-center gap-5'>
                     <div className='group flex items-center justify-center flex-shrink-0 px-11 py-4 h-[80px] bg-[#361C5D] rounded cursor-pointer'>
-                        <img className='font-sm group-hover:scale-110 transition-all cursor-pointer' src='/play.svg' alt='' />
+                        <img className='font-sm group-hover:scale-110 transition-all cursor-pointer' src='/icons/play.svg' alt='' />
                     </div>
                     <div className=''>
                         <h3 className='font-Rubik'>
@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
             <div className='md:ml-[30px] md:-mr-[100px] relative'>
                 <img className='lg:w-auto lg:h-[580px]' src='/running-man.png' alt='' />
-                <img className='lg:w-auto lg:h-[580px] absolute top-2 -right-20' src='/running-man-dots.png' alt='' />
+                <img className='lg:w-auto lg:h-[580px] absolute top-2 -right-20' src='/bg/running-man-dots.png' alt='' />
             </div>
         </div>
         <div className='mt-[90px] lg:mt-0 flex items-center lg:justify-between gap-8 overflow-auto no-scrollbar overflow-fade opacity-30'>

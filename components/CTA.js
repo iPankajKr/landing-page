@@ -13,7 +13,7 @@ const CTA = () => {
                 Get Started
             </button>
         </div>
-        <img className='md:-mt-[130px] relative -z-10' src="/cta-bg.png" alt="" />
+        <img className='md:-mt-[130px] relative -z-10' src="/bg/cta-bg.png" alt="" />
     </section>
   )
 }
